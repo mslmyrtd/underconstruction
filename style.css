@@ -8,7 +8,7 @@
 .container{
     width: 100vw;
     height:100vh ;
-    /* background-image: url(./images/istockphoto-1271070956-170667a.jpg); */
+    background-image: url(./images/bg.jpg);
     background-position:center ;
     background-size: cover;
     padding: 0 8%;
@@ -24,7 +24,7 @@
     top:50%;
     position: absolute;
     transform: translateY(-50%);
-    /* color: #fff; */
+    color: #fff;
 
 }
 .content h1{
@@ -39,6 +39,22 @@
     border: 2px solid #fff;
     outline: none;
     padding: 12px 25px;
+    color: #fff;
+    display:flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+.content button:hover{
+    background-color: white;
+    color: black;
+
+}
+.content button img{
+    width:15px ;
+    margin-left: 10px;
+    
     
 }
 .launch-time{
@@ -46,11 +62,12 @@
 }
 .launch-time div{
     
-    flex-basis: 100px;
+    flex-basis: 130px;
 }
 .launch-time div p{
     font-size: 60px;
-    margin-bottom: -14px;
+    margin-bottom: -4px;
+    margin-left: -12px;
    
 }
 .rocket{
