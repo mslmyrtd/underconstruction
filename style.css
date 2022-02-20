@@ -31,6 +31,10 @@
     font-size:64px ;
     font-weight:500 ;
 }
+.content {
+    font-size:40px ;
+    font-weight:300 ;
+}
 .content h1 span{
     color: #ff3753;
 }
@@ -62,7 +66,8 @@
 }
 .launch-time div{
     
-    flex-basis: 130px;
+    flex-basis: 100px;
+    margin: 0 15px;
 }
 .launch-time div p{
     font-size: 60px;
