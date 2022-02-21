@@ -12,19 +12,18 @@
     background-position:center ;
     background-size: cover;
     padding: 0 8%;
-    background-color: rgba(0, 0, 1, 0.144);
+   
     
 }
-#logo{
-    width: 120px;
-    padding: 20px 0;
-    cursor: pointer;
-}
+
 .content{
     top:50%;
     position: absolute;
     transform: translateY(-50%);
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    
 
 }
 .content h1{
@@ -71,9 +70,12 @@
 }
 .launch-time div p{
     font-size: 60px;
-    margin-bottom: -4px;
-    margin-left: -12px;
+    margin-bottom: -19px;
+    
    
+}
+.launch-time div span{
+    font-size: 20px
 }
 .rocket{
     width: 250px;
